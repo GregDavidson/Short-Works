@@ -7,6 +7,18 @@ the greatest weapon we have.
 ― H. G. Wells 
 #+end_quote
 
+Many people today imagine that things are bad and getting worse. Nothing could
+be further from the truth. The conditions of life for most human beings on the
+planet are better than they've ever been. Less scarcity, less suffering, more
+prosperity and more opportunities than ever. Yes, there are current difficulties
+and the future is always uncertain. We need to navigate life carefully. But
+undue pessimism leads us to make poor choices leading to worse outcomes!
+
+Reading this document with a program that fully understands OrgMode, e.g. Emacs,
+will allow you to collapse and expand the sections. If you're reading this on
+GitHub it can't do this, so I suggest that you scroll down and look at only the
+headings at first, then skip to the content which interests you the most.
+
 ** Education
 
 - TL/DR :: The system of /top-down education/ used in most countries is
@@ -37,7 +49,7 @@ used by most schools in most countries and such systems give very consistent
 results, despite differences in level of funding.
 
 More than 100 years ago general education in the United States used to end in
-eight grade (ending around age 13 or 14) with expected educational attainments
+eighth grade (ending around age 13 or 14) with expected educational attainments
 beyond what graduates of today's secondary education (ending around age 17
 or 18) commonly achieve. (This does not imply that most of the graduates of
 primary education in 1895 achieved those goals either!) Over the years since,
@@ -101,16 +113,17 @@ One of the organized systems of Mastery Education is
 - [[https://en.wikipedia.org/wiki/Constructionism_(learning_theory)][Constructionism - Wikipedia]]
 *** Language and Reading
 
-The success rate of children achieving proficiency (let alone fluency) learning
-foreign languages in traditional school programs is very poor, i.e. most
-students fail after multiple years of instruction. It would be foolish to
-conclude from this that children find learning foreign languages difficult,
-since children will naturally learn any language regularly used in their
-environment to complete fluency without any adult instruction. If we were
-serious about children learning additional languages, we would arrange for such
-additional languages to be used in their environment, e.g. having the language
-used in preschool and kindergarten be in a second language and then using that
-second language for at least half of the school day in primary school.
+The success rate of children achieving fluency in foreign languages from
+traditional school programs is very poor, i.e. most students get discouraged and
+drop out or achieve limited proficiency even after multiple years of
+instruction. It would be foolish to conclude from this that children find
+learning foreign languages difficult, since children will naturally learn any
+language regularly used in their environment to complete fluency without any
+adult instruction. If we were serious about children learning additional
+languages, we would arrange for such additional languages to be used in their
+environment, e.g. having the language used in preschool and kindergarten be in a
+second language and then using that second language for at least half of the
+school day in primary school.
 
 Reading proficiency presents a similar story. Conventional schooling teaches
 reading as a consciously learned skill using reading materials that are not
