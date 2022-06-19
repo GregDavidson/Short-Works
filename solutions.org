@@ -154,7 +154,7 @@ anything which could possibly be provided by a Top-Down system.
 
 The [[https://gregdavidson.github.io/loel][League of Extraordinary Learners - LOEL]] is a proposed design for a /Learning
 Community/ which could facilitate /Mastery Education/ for all subjects free of
-charge to /all learners/ of /all ages/ through the /World Wide Web/.
+charge to /all learners/ of /all ages/ through the World Wide Web.
 
 ** Health and Longevity
 
@@ -182,14 +182,14 @@ don't yet know how to treat well, you may be able to achieve /longevity escape
 velocity/, i.e. to live long enough to take advantage of advances which allow you
 to live still longer, and so on, until you reach the post-mortality era.
 
-*** A Digression on Tradition
+*** Traditions Around Death
 
 Wise people have been practicing techniques for extending their healthspan for
 all of recorded history and doubtless much earlier. It was well understood that
 such practices could only delay, not prevent aging and death. Many ancient
-traditions cultivate attitudes and offer ways to cope with the painful
+traditions include attitudes and practices to help cope with the painful
 circumstances of debilitation and death as gracefully as possible. The Stoics
-often practiced euthanasia, a painless death at the end of life.
+often practiced euthanasia, a painless death at the end of a good life.
 
 Human life seems so precious that many people have imagined that it might
 somehow magically continue past our apparent death into some further realm. In
@@ -201,7 +201,7 @@ adherents. The most politically successful religions consider euthanasia to be
 morally wrong and have often insisted that all measures to prolong life must be
 used, regardless of cost and regardless of the suffering caused by heroic
 medical procedures at the end of life. Why is this relevant to our desire to
-life forever in this world?  Read on!
+live forever in this world?  Read on!
 
 *** Plan B
 
@@ -228,10 +228,10 @@ Stoic might choose euthanasia. An option for people who would like to reach the
 post-mortality era but who doubt that they will be able to live that long is to
 arrange for cryonic suspension immediately after legal death in the hope that
 future technology will be able to reverse the damage done by the processes of
-dying.  Some of us hope that social attitudes and laws will change so that
+dying. Some of us hope that social attitudes and laws will change so that if
 disease or aging destroys the quality of our life, we can utilize cryonic
-suspension to avoid a painful death and maximize the chance of an afterlife
-in /this/ world!
+suspension to avoid a painful death and maximize the chance of an afterlife in
+/this/ world!
 
 ** Climate Change
 
