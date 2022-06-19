@@ -293,9 +293,9 @@ magic. - Arthur C Clarke
 #+end_quote
 
 Viewed form our privileged position, it is now clear that as long as human
-beings have existed, we have been growing our of knowledge base which has been
-growing our capabilities and that this increases the rate at which we can grow
-our knowledge and so forth in an exponential process.
+beings have existed, we have been growing our knowledge base which has been
+growing our capabilities and that these then increase the rate at which we can
+grow our knowledge further and on and so forth in an exponential process.
 
 *** What We've Seen So Far
 
