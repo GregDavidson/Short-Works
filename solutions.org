@@ -147,7 +147,7 @@ they wish. If such a system worked well, it would be revolutionary!
 *** The League Of Extraordinary Learners
 
 The alternative to Top-Down Education (hold still kid while professionals do
-education to you) is Learner-Centered Education. Learning Centered education
+education to you) is Learner-Centered Education. Learner Centered education
 follows the belief, shared by people like Maria Montessori and Seymour Papert
 that interested and engaged Learners have a capacity for learning that exceeds
 anything which could possibly be provided by a Top-Down system.
