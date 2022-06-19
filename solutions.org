@@ -1,0 +1,360 @@
+* There Are Solutions!
+
+#+begin_quote
+Civilization is in a race between education and catastrophe. Let us learn the
+truth and spread it as far and wide as our circumstances allow. For the truth is
+the greatest weapon we have.
+― H. G. Wells 
+#+end_quote
+
+** Education
+
+- TL/DR :: The system of /top-down education/ used in most countries is
+  expensive and produces mediocre results. This is said to be "a crisis". Much
+  better systems have long available and are affordable, yet such better systems
+  are routinely ignored or shunned.
+  
+Goals of a Basic Education:
+- fluency in reading and writing
+- fluency in the prestige dialect of at least two languages
+- mathematical and scientific "literacy"
+- emotional and cultural "literacy"
+- clarity about what is currently known and unknown
+  - including ourselves, our world and the Universe
+- clarity about the kinds of skills and knowledge available to humans
+- having a love of learning
+- having effective skills for further learning
+
+- TL/DR :: Adding more money and more years doesn't help much!
+
+The [[https://www.oecd.org][Organisation for Economic Co-operation and Development - OECD]] runs a
+[[https://www.oecd.org/pisa][Programme for International Student Assessment - PISA]] which regularly ranks the
+performance of the world's youth in their educational attainments at age 15. The
+PISA results for the United States are [[https://www.oecd.org/pisa/publications/PISA2018_CN_USA.pdf][mediocre]] or even [[https://www.thebalance.com/the-u-s-is-losing-its-competitive-advantage-3306225Q][alarming]] given that only
+one country (Luxembourg) spends more money per pupil. This result should not be
+surprising as the US uses roughly the same top-down system of education as is
+used by most schools in most countries and such systems give very consistent
+results, despite differences in level of funding.
+
+More than 100 years ago general education in the United States used to end in
+eight grade (ending around age 13 or 14) with expected educational attainments
+beyond what graduates of today's secondary education (ending around age 17
+or 18) commonly achieve. (This does not imply that most of the graduates of
+primary education in 1895 achieved those goals either!) Over the years since,
+the most common education system used in the United States (and many other
+countries) has added many extra years (pre-school, kindergarten and "high
+school") while failing to noticeably improve outcomes. It's now becoming common
+to view college and university education as necessary supplements to achieve our
+general education goals!
+
+Over the same (more than 100 years) period of time, many better systems of
+education have been developed - and mostly ignored worldwide for cultural,
+political and institutional reasons. Adopting these better systems would exceed
+our aspirations for universal education. The result would be revolutionary!
+
+*** Montessori
+
+Maria Montessori began developing her education system in 1897. She initially
+offered her revolutionary system to the children of the poor, children living in
+the slums of Rome. There is nothing particularly expensive about the Montessori
+system. Yet today Montessori schools are among the most expensive and exclusive,
+primarily serving the children of elite members of rich countries.
+
+Montessori's system is designed to provide for all levels of primary and
+secondary education, but is usually now only available for the youngest
+(rich) children.
+
+Since the beginning, Montessori Education has appeared to produce results
+superior to the results of traditional systems of education. Making Montessori
+education an available option for all children would be revolutionary.
+
+- [[https://en.wikipedia.org/wiki/Montessori_education][Montessori Education - wikipedia]]
+- [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6161506/][Montessori Education Review]]
+  
+*** Mastery Education
+
+Mastery Education can take many forms.  Some key elements are
+- Learning materials are organized into logical modules.
+- Modules include integral activities and tests.
+- Activities are often designed for small groups of students working together.
+- The materials in each module are abundant, including extra materials
+  sufficient to meet the needs of students with different backgrounds, needs,
+  interests, aptitudes or learning styles.
+- Abundant assistance is available from /proctors/, i.e. /Peer Facilitators/ who
+  are typically students who completed the same course of study recently.
+- Qualified proctors assess student's performance on the tests and activities
+  and provide guidance towards the students mastering each module.
+- Students are not judged or graded based on these assessments.
+- Learning consists of mastering all the modules.
+- Different students make take different paths through the materials.
+- The amount of time available to complete each module is sufficiently flexible
+  that all students should be able to master all modules.
+- The /Peer Facilitators/ work with /subject matter experts/ to develop the
+  abundant material for the modules.
+
+One of the organized systems of Mastery Education is
+- [[https://en.wikipedia.org/wiki/Keller_Plan][The Keller Plan - wikipedia]]
+
+*** Constructionism
+- [[https://www.youtube.com/watch?v=UgE05-3SToc][Mathland video - Seymour Papert]]
+- [[https://www.media.mit.edu/projects/mathland/overview/][Mathland - MIT]]
+- [[https://en.wikipedia.org/wiki/Constructionism_(learning_theory)][Constructionism - Wikipedia]]
+*** Language and Reading
+
+The success rate of children achieving proficiency (let alone fluency) learning
+foreign languages in traditional school programs is very poor, i.e. most
+students fail after multiple years of instruction. It would be foolish to
+conclude from this that children find learning foreign languages difficult,
+since children will naturally learn any language regularly used in their
+environment to complete fluency without any adult instruction. If we were
+serious about children learning additional languages, we would arrange for such
+additional languages to be used in their environment, e.g. having the language
+used in preschool and kindergarten be in a second language and then using that
+second language for at least half of the school day in primary school.
+
+Reading proficiency presents a similar story. Conventional schooling teaches
+reading as a consciously learned skill using reading materials that are not
+interesting to the students. Most children do not become the kind of avid
+readers who absorb written material much faster than speech and without the
+"skill" requiring any conscious effort. "Native" readers learn reading by being
+read to, e.g. sitting next to the reader or on the reader's lap, with the book
+in the learner's lap. One must ensure that the learner has sufficient visual
+acuity. Learners will typically become fluent readers in a few months. Learners
+with dyslexia will usually also become fluent, although it will take longer.
+
+It might be possible to supplement the exposure required to develop native
+reading fluency by using a reading app running on tablets and phones which can
+allow children to select among a wide variety of children's books (including
+picture books) on diverse subjects and read them to the children, using eye
+tracking and highlighting to synchronize the audio with the text. The children's
+visual attention would place the children in total control of the pacing of the
+reading and allow the children to read and revisit the material as many times as
+they wish. If such a system worked well, it would be revolutionary!
+
+*** The League Of Extraordinary Learners
+
+The alternative to Top-Down Education (hold still kid while professionals do
+education to you) is Learner-Centered Education. Learning Centered education
+follows the belief, shared by people like Maria Montessori and Seymour Papert
+that interested and engaged Learners have a capacity for learning that exceeds
+anything which could possibly be provided by a Top-Down system.
+
+The [[https://gregdavidson.github.io/loel][League of Extraordinary Learners - LOEL]] is a proposed design for a /Learning
+Community/ which could facilitate /Mastery Education/ for all subjects free of
+charge to /all learners/ of /all ages/ through the /World Wide Web/.
+
+** Health and Longevity
+
+*** Live Long Enough to Live Forever
+
+Today's knowledge of every aspect of biology is vast and is rapidly expanding.
+Our current abilities to prevent and treat diseases would be regarded as
+miraculous any time in the past. And our knowledge is rapidly growing.
+
+In a few years we will be able to prevent or cure every disease which plagues
+humankind. We will soon be able to significantly slow some of the major
+processes of aging and reverse some of those processes significantly.
+
+A few years after that we will be able to stop and reverse aging entirely. If
+you can live long enough to be alive in that era, you could live as long as you
+like and take advantage of enhancements beyond our current imagination.
+
+There are two pathways to this awesome future. The first is to maximize your
+healthspan. Apply the knowledge we have about how to increase your health and
+slow aging. Update your approach as knowledge increases. This should be a
+no-brainer as it extends the quality as well as the length of your life.
+
+If you're young enough now and if you manage to avoid accidents and diseases we
+don't yet know how to treat well, you may be able to achieve /longevity escape
+velocity/, i.e. to live long enough to take advantage of advances which allow you
+to live still longer, and so on, until you reach the post-mortality era.
+
+*** A Digression on Tradition
+
+Wise people have been practicing techniques for extending their healthspan for
+all of recorded history and doubtless much earlier. It was well understood that
+such practices could only delay, not prevent aging and death. Many ancient
+traditions cultivate attitudes and offer ways to cope with the painful
+circumstances of debilitation and death as gracefully as possible. The Stoics
+often practiced euthanasia, a painless death at the end of life.
+
+Human life seems so precious that many people have imagined that it might
+somehow magically continue past our apparent death into some further realm. In
+such a case there might be no point in trying to increase the length of one's
+life. Instead, one might optimize the afterlife possibilities via magical
+rituals, appeals to supernatural beings, etc. This attitude fuels the popularity
+and political power of the religions which promise life after death to their
+adherents. The most politically successful religions consider euthanasia to be
+morally wrong and have often insisted that all measures to prolong life must be
+used, regardless of cost and regardless of the suffering caused by heroic
+medical procedures at the end of life. Why is this relevant to our desire to
+life forever in this world?  Read on!
+
+*** Plan B
+
+If you are not young and lucky enough, there is still a way you could reach the
+post-mortality era: reversible suspension of life or /suspended animation/. The
+only current technology for this is /cryonic suspension/, a careful lowering of
+your body's temperature, using /cryoprotectants/ to prevent the formation of
+destructive ice crystals. /Cryonic Suspension/ /vitrifies/ your body into a
+glassy solid within which all physiological processes are suspended. There are
+three problems with this approach at the current time:
+- We can't currently avoid all damage during the vitrification process
+- We can't yet reverse the vitrification process to bring you back to life
+- Legal restrictions prohibit starting suspension before legal death
+
+Reasonable extrapolations of the technological capabilities in the
+post-mortality era suggest that it will become possible to reverse cryonic
+suspension, as long as there has not been too much damage to the body before it
+was vitrified. For example, once we fully develop molecular nanotechnology,
+which is likely just a matter of a few decades, both suspension and
+revivification should be reliable and inexpensive. If we had such a capability
+now, it would be legal to suspend you as soon as you determined that your
+quality of life was no longer acceptable - under the same circumstances as a
+Stoic might choose euthanasia. An option for people who would like to reach the
+post-mortality era but who doubt that they will be able to live that long is to
+arrange for cryonic suspension immediately after legal death in the hope that
+future technology will be able to reverse the damage done by the processes of
+dying.  Some of us hope that social attitudes and laws will change so that
+disease or aging destroys the quality of our life, we can utilize cryonic
+suspension to avoid a painful death and maximize the chance of an afterlife
+in /this/ world!
+
+** Climate Change
+
+Currently we have a large number of current options for slowing the increase
+of Climate Change.  A great list is at
+
+- [[https://www.drawdown.org/solutions][Project Drawdown Climate Change Solutions Inventory]]
+
+We don't have the ability to immediately stop the practices which are causing
+Climate Change, but we can do the next best thing: We can tax them in proportion
+to the danger that they pose. Taxing any harmful externality that can't simply
+be prohibited tends to work wonders, as it then directs the market to optimize
+the most efficient use of the available solutions.
+
+Specifically, what we need is a /Carbon Tax/ - a tax on the emission of any
+greenhouse gas, principally Carbon Dioxide but also other gases like Methane
+which operate similarly. The way the world trading system works is 
+each country adopting a /Carbon Tax/ creates an incentive for their trading
+partners to adopt a similar tax until it becomes universal.
+
+What we need to do right now is to slow the increase of Climate Change. As we
+develop more technological options we need to use them to further slow that
+increase and then to stop it and then to reverse it. Ultimately we will have
+total control over the worlds climate and weather. In the meantime, we need to
+minimize human suffering and (because we're awesome) minimize ecological damage.
+
+Some of the best /current solutions/ now (see the Drawdown Link above)
+- More and better Solar and Wind Power
+- More and better energy storage
+      - Flow batteries are particularly good!
+- Replacing combustion with electricity
+- More and better portable energy sources
+      - Battery electric vehicles
+- Maximise use of Biochar to improve soil
+- Ocean fertilization with Iron and possibly other micronutrients
+- Develop Green Hydrogen-powered airplanes
+- Develop Green Ammonia-powered ships
+
+Near future solutions
+- Continue improving the above
+- Switch to Green Hydrogen-powered airplanes
+- Switch to Green Ammonia-powered ships
+
+Further in the future
+- Molecular Nanotech systems to remove CO2
+
+** Prosperity
+
+We know how to grow enough food and make enough of all of the material things,
+including housing to give every person on the planet the kind of material
+prosperity currently enjoyed by middle-class people in the first world, including making
+such.
+
+** The Future
+
+#+begin_quote
+Any sufficiently advanced technology is indistinguishable form
+magic. - Arthur C Clarke
+#+end_quote
+
+Viewed form our privileged position, it is now clear that as long as human
+beings have existed, we have been growing our of knowledge base which has been
+growing our capabilities and that this increases the rate at which we can grow
+our knowledge and so forth in an exponential process.
+
+*** What We've Seen So Far
+
+Several industrial revolutions
+- Energized by by Wood, Coal, Steam, Petroleum
+- Electricity ==> Electronics
+- Mills, Assembly Lines, Robotics, 3D Printers
+- Manufactured goods unevenly distributed but no longer scarce
+
+Several agricultural revolution
+- Fertilizers, Combines, Breeding, Genetics, ...
+- Sustainable methods usingGreenhouses, Hydroponics, No-Till, ...
+- Food unevenly distributed but increasingly abundant
+
+Several information technology revolutions
+- Mechanical calculators, tabulators, punch cards, ...
+- Vacuum Tubes, Transistors, Integrated Circuits
+- Magnetic tapes, Magnetic Disks, Flash Drives, ...
+- Telegraph, Telephone, Microwave, Broadcast, Cable, Early Satellite
+- Fiber optics, Cell, Mesh, Starlink ==> Internet Everywhere!
+- Mainframes, Supercomputers, Minicomputers, Early PCs
+- PC Supercomputers, Smartphones, CPUs in everything, Cloud Services
+- Imperative Computing, Databases, Operating Systems, Heroic AI
+- Declarative Computing, Object-Relational Databases, Machine Learning
+
+Chemistry revolutions
+- Alchemy -- slowly building up knowledge of substances
+- Quantitative chemistry -- repeatability of discoveries
+- Physics-based chemistry -- deliberate creation
+
+Biomedical revolutions
+- Early Vaccinations, Early Antibiotics, Hygiene
+- Medicine increasingly driven by knowlege
+- Early genetics, full genome sequencing, ...
+
+Our era is characterized by Accelerating Change while most people imagine
+that the future will resemble what they've seen in their lifetimes so far
+or linear extrapolation of what they've seen so far.
+
+*** What's Predictably Next
+
+- Molecular Nanotechnology
+      - Perfect Molecular Replicators
+      - Exponentially powerful physical capabilities
+      - Post-Mortality
+- Advanced Genetics and Biotechnology
+      - Same as Molecular Nanotechnology, really!
+      - Post-Mortality
+- Hybrid AI, Human-Computer Interfaces
+      - We start to get smarter
+      - Difficult things start to be really easy
+
+*** Singularity
+
+Likely highly sensitive to entry conditions
+- Could be arbitrarily good
+- Could be arbitrarily bad
+
+We can't predict any details past the singularity
+
+Let's create the best possible entry conditions!
+
+*** Final Words
+
+We are ridiculously fortunate to be alive right now!
+- The past was mostly horrible!
+- The next era is unknowable and scary!
+
+Our job is to navigate through Accelerating Change
+- as safely as possible
+- avoiding and damping down panic
+- cultivating optimism and generosity
+
+If we create a benevolent Singularity
+- We win!
