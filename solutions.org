@@ -1,4 +1,12 @@
-* There Are Solutions!
+#+TITLE: Our Problems Have Solutions!
+#+AUTHOR: J. Greg Davidson
+#+DATE: Saturday, 18 June 2022
+#+OPTIONS: num:nil
+# +OPTIONS: toc:nil 
+# +OPTIONS: date:nil 
+# +OPTIONS: author:nil 
+
+* Our /Great Problems/ Have /Solutions!/
 
 #+begin_quote
 Civilization is in a race between education and catastrophe. Let us learn the
@@ -7,17 +15,44 @@ the greatest weapon we have.
 ― H. G. Wells 
 #+end_quote
 
-Many people today imagine that things are bad and getting worse. Nothing could
-be further from the truth. The conditions of life for most human beings on the
-planet are better than they've ever been. Less scarcity, less suffering, more
-prosperity and more opportunities than ever. Yes, there are current difficulties
-and the future is always uncertain. We need to navigate life carefully. But
-undue pessimism leads us to make poor choices leading to worse outcomes!
+As a technical person - OK, call me a geek! - it is often troubling to hear
+scary stories in the media, and even in the scientific literature, suggesting
+that we (our region, country, society or even our whole world) is facing
+terrible problems and even existential threats without any good solutions or
+only having solutions which would bankrupt us. It's troubling because there are
+usually multiple practical and affordable solutions for solving these problems
+which should be known to any expert. As a geek it is often difficult to
+understand how politically useful problems are for fueling fear and how little
+actual political interest there tends to be for actually solving these problems!
 
-Reading this document with a program that fully understands OrgMode, e.g. Emacs,
-will allow you to collapse and expand the sections. If you're reading this on
-GitHub it can't do this, so I suggest that you scroll down and look at only the
-headings at first, then skip to the content which interests you the most.
+The purpose of this document is to begin to show you that many of the serious
+and threatening problems which we face today have solutions that are practical
+and affordable. Knowing this may help to dispel the paralyzing sense of doom and
+helplessness. Being acquainted with some of these solutions might give you what
+you need to help get some of these problems properly addressed.
+
+Many people imagine that the conditions of life for human beings today are bad
+and getting worse. Despite many difficult circumstances facing many people the
+conditions of life for most human beings on the planet are [[https://stevenpinker.com/publications/enlightenment-now-case-reason-science-humanism-and-progress][better than they've
+ever been]]. Less scarcity, less violence, less suffering; more prosperity and
+more opportunities than ever. The future is always uncertain and we need to
+navigate life carefully. But undue pessimism leads us to make poor choices
+leading to worse outcomes!
+
+# Factor out the next paragraph into a separate file which we can link to
+# everywhere we need to say this!!
+
+Note: This document is a text file formatted with [[https://orgmode.org][OrgMode]] markup. You can read
+it with any program which can display text but you may miss out on a lot of nice
+features. [[https://www.gnu.org/software/emacs][GNU Emacs]] has the best support for OrgMode (and Git and so much else)
+but Emacs takes some [[https://sachachua.com/blog/2013/05/how-to-learn-emacs-a-hand-drawn-one-pager-for-beginners][getting]] [[https://coderscat.com/5-advice-for-learning-emacs][used]] [[https://www.youtube.com/results?search_query=learning+emacs][to]]. Text files are ideal for [[https://en.wikipedia.org/wiki/Git][Git]] and [[https://github.com][GitHub]]
+supports some basic OrgMode features, but not the ability to Collapse and Expand
+sections. You can use Emacs Org-Export or [[https://pandoc.org][Pandoc]] to convert OrgMode to many
+other nice documentation formats. /If you're reading this document on GitHub, I
+suggest that you scroll down and look at only the headings first, then skip to
+the content which interests you the most./ This document is certainly incomplete
+and imperfect. /Please use the GitHub Issues and Pull Request features to help
+improve it!/
 
 ** Education
 
@@ -158,7 +193,7 @@ charge to /all learners/ of /all ages/ through the World Wide Web.
 
 ** Health and Longevity
 
-*** Live Long Enough to Live Forever
+*** Plan A: Live Long Enough to Live Forever
 
 Today's knowledge of every aspect of biology is vast and is rapidly expanding.
 Our current abilities to prevent and treat diseases would be regarded as
@@ -205,35 +240,63 @@ used, regardless of cost and regardless of the suffering caused by heroic
 medical procedures at the end of life. Why is this relevant to our desire to
 live forever in this world?  Read on!
 
-*** Plan B
+*** Plan B: Cryonic Suspension
 
 If you are not young and lucky enough, there is still a way you could reach the
-post-mortality era: reversible suspension of life or /suspended animation/. The
-only current technology for this is /cryonic suspension/, a careful lowering of
-your body's temperature, using /cryoprotectants/ to prevent the formation of
-destructive ice crystals. /Cryonic Suspension/ /vitrifies/ your body into a
-glassy solid within which all physiological processes are suspended. There are
-three problems with this approach at the current time:
-- We can't currently avoid all damage during the vitrification process
-- We can't yet reverse the vitrification process to bring you back to life
-- Legal restrictions prohibit starting suspension before legal death
+post-mortality era: reversible suspension of life using /cryonic suspension/, a
+careful lowering of your body's temperature, using /cryoprotectants/ to prevent
+the formation of destructive ice crystals until all physiological processes are
+suspended.
 
-Reasonable extrapolations of the technological capabilities in the
-post-mortality era suggest that it will become possible to reverse cryonic
-suspension, as long as there has not been too much damage to the body before it
-was vitrified. For example, once we fully develop molecular nanotechnology,
-which is likely just a matter of a few decades, both suspension and
-revivification should be reliable and inexpensive. If we had such a capability
-now, it would be legal to suspend you as soon as you determined that your
-quality of life was no longer acceptable - under the same circumstances as a
-Stoic might choose euthanasia. An option for people who would like to reach the
-post-mortality era but who doubt that they will be able to live that long is to
-arrange for cryonic suspension immediately after legal death in the hope that
-future technology will be able to reverse the damage done by the processes of
-dying. Some of us hope that social attitudes and laws will change so that if
-disease or aging destroys the quality of our life, we can utilize cryonic
-suspension to avoid a painful death and maximize the chance of an afterlife in
-/this/ world!
+There are three problems with this approach at the current time:
+1. We can't yet reverse the vitrification process to bring you back to life
+2. We can't currently avoid all damage during the vitrification process
+3. Legal restrictions prohibit starting suspension before legal death
+
+Let's address these issues one at a time:
+
+**** Reversing Cryonic Suspension
+
+The expected development of Molecular Nanotechnology over the next few decades
+should give us the ability to safely reverse Cryonic Suspension.
+
+**** Avoiding Damage During and Before Cryonic Suspension
+
+Mature Molecular Nanotechnology should be able to repair extensive damage, but
+it can't restore lost information. The current Cryonic Suspension process does
+not seem to destroy neurological information. But neurological information can
+be easily destroyed by end-of-life medical conditions and death. Ideally Cryonic
+Suspension would be performed at the point that a patient's quality of life was
+no longer acceptable and was not recoverable. Although the hope would be that
+the patient would be revived and restored sometime in the future, current law
+would regard such a procedure as a form of euthanasia.
+
+**** Allowing Suspension Before Legal Death
+
+Until we can demonstrate successful reversal of Cryonic Suspension in higher
+organisms (some fish and amphibians can aready do it!) and ideally in humans it
+will be difficult to establish a legal framework for Cryonic Suspension as a treatment
+rather than as a form of euthanasia.
+
+Until recently nearly all countries have prohibited euthanasia, but this is [[https://worldpopulationreview.com/country-rankings/where-is-euthanasia-legal][now]]
+[[https://en.wikipedia.org/wiki/Euthanasia][changing]]. Until recently organizations providing Cryonic Suspension have wanted
+to avoid having the already difficult acceptance of Cryonic Suspension
+associated with the traditional negative moral attitude to enthanasia. Where
+euthanasia becomes more acceptable, it should soon become possible to use
+Cryonic Suspension for the dual purpose of (1) escaping end-of-life suffering
+with (2) a reasonable hope of revival, restoration of health and rejuvenation.
+
+**** Is Cryonic Suspension Financially Affordable?
+
+Prolonging life to the bitter end using heroic end-of-life medical intervention
+is tremendously expensive, yet it is part of standard health insurance in first
+world countries and increasingly in the rest of the world as wealth increases.
+The increasing expensive of end-of-life medical care is widely considered one of
+the crises of our era, accounting for a large fraction of overall medical
+expenses.
+
+Cryonic Suspension with long-term maintenance is actually /cheaper than heroic
+end-of-life medical care/!
 
 ** Climate Change
 
@@ -279,6 +342,14 @@ Near future solutions
 
 Further in the future
 - Molecular Nanotech systems to remove CO2
+
+*** Water Scarcity in the American South-West
+
+Israel grows much of the same crops that are grown in the American South-West.
+Only Israel does so using less than 1/5 the amount of water. The methods used by
+Israeli farmers are well known. They can be adopted in all water-scarce
+agricultural regions of the world.
+
 
 ** Prosperity
 
