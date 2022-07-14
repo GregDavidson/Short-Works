@@ -1,0 +1,9 @@
+* Draft Area
+
+This repository is for drafts which may change or disappear without notice.
+
+Please simply ignore (or pretend to ignore) this repository unless I've
+specifically asked you for feedback on something here.
+
+Yes, I could make it private, but as nothing here is actually sensitive, it's
+more convenient to have it public but ignored.
