@@ -1,0 +1,47 @@
+* Digital Computer Systems are Not Conscious by Design!
+
+Panpsychism is the idea that physical substance has an elementary consciousness
+or proto-consciousness which underlies or is an essential ingredient in the
+full-fledged consciousness experienced by human beings (and possibly other
+living organisms) which are able to leverage such elementary or
+proto-consciousness. If anything like this idea is true, then we should expect
+our digital computer systems to /not/ exhibit consciousness, regardless of how
+we program them! They are designed not to, because of the work of John von
+Neumann and Alan Turing, et al.
+
+John von Neumann figured out error correcting schemes that allow us to construct
+computing machines or arbitrary reliability out of components which might be
+arbitrarily unreliable. Modern computers consist of billions of imperfect
+components yet achieve an error rate of much less than 1 in a billion errors per
+operation. Any kind of proto-consciousness would simply be filtered out by the
+error correction circuitry. As Turing and others have proven, as long as the
+physical substrate underlying a computer system possesses a few basic properties
+it's behavior becomes independent of the nature of that substrate except for
+performance issues. I.e. a computer system would have the same input/output
+behavior if their silicon chips were replaced by a suitable system of brass rods
+and wheels or the lenses and mirrors of an optical computer or even a large
+collection of trained pigeons. This kind of design makes computers radically
+independent [you could also say divorced and alienated] from the physical nature
+of the materials of which they are constructed.
+
+It appears that evolution has /not/ similarly isolated the behavior of our
+nervous systems from the details of their physical construction. Evolution has
+found its own ways to deal with issues of reliability, signal/noise ratios, etc.
+Our minds do not simply abort or restart computations in the face of noise or
+errors. Our minds are strongly influenced by noise, hormones, drugs and
+everything else going on in the micro and nano scale of their construction. Our
+minds are resilient in the face of such influences yet also affected by them. If
+anything like panpsychism is true, it would be reasonable for our biology to
+leverage it and for it to show up in the behavior of our brains.
+
+None of the arguments above are evidence for either weak or strong panpsychism.
+None of this illuminates the mystery of the nature of consciousness. But these
+arguments /should/ make us suspicious of any claims that AI systems or brain
+uploads running on digital computers would be conscious. And if evolution has
+leveraged some proto-conscious nature of physical systems, it will have done so
+because it is adaptive, making it reasonable to conjecture that conscious minds
+may be capable of mental feats which are difficult or even impossible for a
+purely computational mind to achieve. A common conjecture in this arena is that
+consciousness is necessary for true creativity, i.e. the distinguishing of new
+abstract domains. A separate essay will be needed to properly explain what that
+means!
