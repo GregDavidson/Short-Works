@@ -1,0 +1,13 @@
+* The Cooker
+
+This is a place for exploring and developing works which are not part of a
+larger project. Many of these works will wind up on the "back burner" and may be
+effectively abandoned. Works which achieve merit will be indexed so they have a
+stable reference.
+
+I recommend ignoring anything that is not indexed, unless you've been specifically
+been directed to it, perhaps to help in its development.
+
+Currently Indexed:
+
+Nada, Null, Nihil, Zip!
