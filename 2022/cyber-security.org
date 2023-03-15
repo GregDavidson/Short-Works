@@ -1,0 +1,108 @@
+* Cyber Security is Possible and Challenging
+
+It's technically possible to create a computing and communications
+infrastructure which is totally, provably secure. Alas, this cannot be achieved
+with our common computing infrastructure. Our common devices, operating systems,
+programming languages and networks are fundamentally insecure. The road to
+secure computing and communication security requires that we strategically
+replace key computing elements with secure alternatives and use encryption to
+secure our communications through insecure devices and networks.
+
+** Myths and Truths
+
+- Myth: Encryption can always be broken :: Despite video dramas showing hackers
+  quickly breaking codes, direct attacks against state-of-the-art encrypted
+  communication is effectively impossible.
+
+- Myth: If you can tap into a network, you can break into the system :: As long
+  as all communication within that network is either fully encrypted (if
+  sensitive) or accompanied by cryptographic checksums (if the data itself is
+  not sensitive but needs to be free of corruption) and the cryptographic
+  methods are up-to-date and properly implemented, it doesn't matter if the
+  network is insecure.
+
+- Myth: Computing devices behind good firewalls are reasonably secure :: If
+  there's a back-door in a computing device and that device is in any way
+  connected to other devices such that there's way for any information to get
+  out of your system, the system is insecure.
+
+- Myth: Processes running in secure containers or VMs are secure :: Containers
+  and Virtual Machines are insecure if the underlying hardware or operating
+  system is insecure.
+
+- Truth: Common Hardware and Software are highly insecure :: CPUs from Intel and
+  AMD have been intentionally designed with backdoors and are therefore insecure
+  by design. Most motherboards and BIOSes are insecure by design or
+  incompetence. Windows, MacOS and Linux are insecure by design or incompetence.
+
+- Myth: Good passwords and Two-Factor authentication will protect our systems :: A
+  computing system is insecure when
+- the system managing the passwords or other security tokens is insecure
+      - those passwords and tokens are now compromised
+- the system which has access to unencrypted data after or before encryption is
+  insecure
+
+Despite the insecurity of the common computing infrastructure, e.g.
+- the popular CPUs and Motherboards
+- peripherals: keyboards, mice, attached storage devices, etc.
+- infrastructure: modems, switches, etc.
+- smart personal devices: phones, tablets, smart watches, etc.
+- the Internet, the Web, Enterprise Services and the Cloud
+it is still possible to greatly increase the security of one's own secure
+communication and computing systems.
+
+** A Roadmap Towards Security
+
+First, we must secure our personal hardware and software
+
+- Guidelines for More Secure Hardware
+      - CPUs :: ARM, IBM Power or RISC-V
+            - All Intel and AMD CPUs have an engineered backdoor
+            - marketed as a "management feature" to enterprise clients!
+      - Motherboards ::
+            - No insecure chips programmed by binary blobs
+      - BIOSes :: CoreBoot or LibreBoot
+      - Keyboards ::
+            - Nothing wireless or programmable!
+
+- Some Relatively Secure Operating Systems
+      - Tails :: the most secure, but sometimes difficult to use
+      - Qubes :: allows running other O/Ses in secure containers
+      - OpenBSD :: good for infrastructure devices
+      - Everything has to be
+            - Transparently rebuildable from Easily Auditable Open Source
+
+Fully secure devices:
+- Require a transparent and auditable construction process
+      - Design, e.g. Verilog Files, is Open Source and Auditable
+      - Construction Process is transparent and auditable
+
+Today's complex chips are designed by software which produces design files, e.g.
+Verilog, which is used by automated devices to manufacture them. They have
+integral circuitry for inspecting, testing and debugging their functions. All of
+these steps can be made secure if desired. The manufacturing processes for
+today's complex chips are done within extremely complex and expensive (capital
+intensive) foundries owned by companies which consider the details of those
+processes to be proprietary secrets. Only government regulation or a unified
+requirement by their very large customers, especially their government
+customers, are likely to be able to motivate them financially to allow
+independent verification of the security of those processes and of those chips.
+
+It is possible to make complex chips independently from capital-intensive
+proprietary foundries and this is rarely done because it is not cost
+competitive in volume.
+
+Motherboards consist of Printed Circuit Boards (PCBs) which are produced by
+automated devices from design files. Chips and sockets are placed on PCBs by
+automated robots controlled by design files. All of this can be done
+transparently and automated. Small-scale manufacturing of PCBs using 3D Printers
+and relatively inexpensive robotics is fairly common and reasonably competitive
+with the large proprietary motherboard suppliers.
+
+Peripheral devices, e.g. keyboards and mice are based on small PCBs populated
+with small numbers of standard chips. These devices can be secured more easily
+than the more complex computing devices which they connect to.
+
+All computing and communications devices can be secured by the same basic
+approaches. But the devices which only work with data proctected with encryption
+or checksums don't need to be made secure.
