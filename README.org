@@ -5,6 +5,12 @@ larger project. Many of these works will wind up on the "back burner" and may be
 effectively abandoned. Works which achieve merit will be indexed so they have a
 stable reference.
 
+Please simply ignore (or pretend to ignore) the works in this Folder unless I've
+specifically asked you for feedback on something here.
+
+Yes, I could make it private, but as nothing here is actually sensitive, it's
+more convenient to have it public but ignored.
+
 I recommend ignoring anything that is not indexed, unless you've been specifically
 been directed to it, perhaps to help in its development.
 
