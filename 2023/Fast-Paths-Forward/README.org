@@ -1,0 +1,105 @@
+* Fast Paths Forward: Towards Desirable Futures
+
+** Biotechnology
+
+*** Extreme Health and Longevity
+
+- Significantly Slowing Aging
+- Significantly Reversing Some Aging
+- Reversible Suspended Animation
+
+** Physical Tech
+
+*** Post-Scarcity Material Abundance
+
+- Post-Scarcity Automation
+      - 3D Printers & Fab Labs
+            - Household & Local
+            - Replication
+- Robotics
+      - Distributed Intelligence
+            - Unified Sensoriums
+            - Cooperating Effectors
+      - Smarter Tools
+      - Full Automation of Human Tasks
+      - Telerobotics
+            - Semi-Automated
+- Tabletop Chemistry Systems
+      - Household and Local
+      - Tabletop (Bio)chemistry Micro-Analysis
+      - Tabletop (Bio)chemistry Synthesis
+- Molecular Replicator Nanotechnology
+
+- Transportation
+      - Distributed Intelligence
+            - Smart Roads
+            - Swarm/Mesh Cooperation
+            - Hybrid Autonomy & Remote Operation
+      - Serial Hybrid Vehicles
+
+*** Molecular Replicator Nanotechnology
+
+- Substrates
+- Simulation
+
+** Computing Tech
+
+*** Augmentation of Intellect
+
+Update
+- Englebart's Augment
+      - Wicci
+- Sketchpad & ThingLab
+- Ted Nelson's Computer Lib & Dream Machines
+
+*** Artificial Intelligence
+
+- Do What I Mean
+- Specialist KBS Experts
+      - In Real World
+      - In Virtual Worlds
+- Personal KBS Assistants
+
+*** Enabling Technologies for Computing
+
+**** Enabling Artificial Intelligence
+
+- Elegant Multi-Paradigm Platforms
+- Post Flora/Ergo Declarative Deductive Databases
+- Blackboard Architecture
+- Flexible Sound Reasoning
+- Machine Learning, et al for Heuristic Search
+
+**** Postgres and Persistent Relational World
+
+- Non-Monotonic & Versioned Databases
+- Integration with Multi-Paradigm Platforms
+
+**** Constraint Logic Programming & Metaprogramming
+
+** Science and Mathematics
+
+- Research Freedom
+      - Inverted Hierarchy
+- Research Quality
+      - Quality of Group Cultures
+      - Cross-Fertilization
+
+** Later Possibilities
+
+** Biotechnology
+
+- Rejuvenation
+
+*** Molecular Replicator Nanotechnology
+
+- Alternative Substrates for Sapients
+
+** Meta & Templates
+
+Fast Paths Forward
+
+- Template
+      - List Goals / User Stories
+      - Provide Path(s) / Use Case(s)
+      - List Key Enabling Technologies
