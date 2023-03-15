@@ -1,0 +1,41 @@
+* Education: Learning vs. Instruction vs. Training
+
+For the purposes of this article I will be using some common terms in very
+specific ways.
+
+- Learning :: Learner-Directed growth of Knowledge and Understanding in specific
+  domains in alignment with the Learner's natural learning processes and
+  intrinsic reward systems. Experts only allowed to facilitate, not control the
+  process. Examples and characteristics:
+      - Immersive learning of languages
+      - Montessori education
+      - Immersive Simulations
+      - Assessments are for feedback only
+      - Loose time frame of learning process
+      - No penalty if student does not complete something
+      - Abstractions are built through exploration
+      - Expert's models provided after learner has their own intuitions
+      - Result is simply what was learned
+            - Planned and unplanned learning
+            - Learning how to learn
+
+- Instruction :: Acquisition of knowledge and understanding guided by experts,
+  often accompanied by evaluations that are considered a long-term measure of the
+  student's quality. Experts control the process but are not themselves graded.
+  Examples and characteristics:
+      - lecture-recitation or programmed instruction
+      - explanations provided in advance of practice
+      - reproduction of correct theory then of correct methodology
+      - homework assignments, tests, grades
+      - Result is an assessment of student quality
+            - Based on how well they performed in the process
+            - Not just on what they now know, understand and can do
+      - Result goes on their permanent record
+            - Used to judge the student's quality
+
+- Training :: Building and refining specific skills, especially with specific
+  competency standards. Examples and characteristics:
+      - drill and practice
+      - worksheets
+      - timed goals
+      - ranking and competition
