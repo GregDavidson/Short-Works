@@ -1,0 +1,13 @@
+*.o
+*~
+*#
+foo.*
+*.foo
+foo-*
+*-foo
+*.tex
+*.pdf
+*.odt
+Limbo/
+Draft/
+LINKS.org
