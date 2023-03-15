@@ -1,0 +1,28 @@
+* Kinds of Intelligence in Tools
+
+- Fixed vs. Programmable Tools
+- Behavioral vs. Procedural vs. Declarative Scripting
+- Parsing the Work
+      - Pattern Matching
+- Types, Semantics, Representation, Search
+- Managing Heuristics
+
+I won't be considering a tool to be intelligent if it
+- requires you to supply all of its intelligence
+- ignores your intentions in favor of someone else's
+- is not in some way programmable
+      - even if only by learning from usage and examples
+
+I will consider a tool to be only semi-intelligent
+- if it doesn't know what it's doing and can't explain itself
+
+I will consider a tools to be state-of-the-art intelligent if it
+- has a representation of its task domain
+- critically accepts new knowledge, constraints and heuristics
+- can share knowledge with other instances
+- is transparent at an abstract simple logical level
+      - including being able to generate correct and succinct explanations
+      - of its behavior, understanding and capacities
+- can leverage multiple kinds of information and knowledge
+
+A sophisticated intelligent tool can work with you and others in partnership
