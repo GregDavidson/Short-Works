@@ -1,0 +1,101 @@
+* Desirable Hybrid Automobile Technology
+
+TL;dr: The best would be Series-Hybrid Automobiles with
+- Sufficient battery capacity for most needs
+- Excellent performance on battery only
+- Good performance with combined Battery and Internal Combustion Generator
+      - Allowing for extended range
+- Mediocre performance with Internal Combustion Generator alone
+
+** Battery Electric, Series Hybrid, Parallel Hybrid
+
+Electric and Hybrid Automobiles go back some time.
+Consider the first three automobiles designed by Ferdinand Porsche:
+- The C.2 Phaeton of 1898
+      - A Battery-Electric Vehicle (BEV)
+      - Front wheel drive
+            - 2 electric motors mounted in the front wheel hubs
+- The Toujour-Contente of 1900
+      - A battery-electric automobile
+      - All wheel drive
+            - Electric motors mounted in the hubs of all four wheels
+- The Lohner-Porsche Mixte Hybrid of 1901
+      - *the world's first hybrid automobile, a [[https://en.wikipedia.org/wiki/Hybrid_vehicle_drivetrain#Series_hybrid][Series Hybrid]]*
+      - Electric wheel hub motors as with the previous vehicles
+      - Driven by an Internal Combustion Generator
+      - Supplemented by a battery pack
+
+A [[https://en.wikipedia.org/wiki/Hybrid_vehicle_drivetrain#Series_hybrid][Series Hybrid]] shares many of the advantages of a battery electric vehicle
+- Great performance including high torque
+- High efficiency including Regenerative Braking
+- Simpler power train with far fewer mechanical components
+      - Lower maintenance
+- The Internal Combustion Generator in often called a /Range-Extender/
+      - handy for unusually long trips
+      - otherwise rarely used
+
+[[https://en.wikipedia.org/wiki/Diesel%E2%80%93electric_powertrain][Serial-Hybrid Powertrains]] are widely used
+- for locomotives
+- for ships
+- but not for automobiles or trucks!
+
+The Toyota Prius of 1999
+- a [[https://en.wikipedia.org/wiki/Hybrid_vehicle_drivetrain#Parallel_hybrid][Parallel Hybrid]]
+- all of the complexity of an Internal Combustion Engine
+      - mechanical components from engine to transmission to wheels
+- no plug-in models until 2012
+- moderately more efficient than ICE cars in its cals
+      - uses regenerative-braking
+      - uses a somewhat [[https://en.wikipedia.org/wiki/Atkinson_cycle][more efficient ICE cycle]]
+      - yet no more efficient than many compact ICE automobiles
+
+Parallel Hybrid vehicles have
+- most of the disadvantages of ICE vehicles
+      - the complexity of ICE and BEV combined
+- few of the advantages of battery electric vehicles
+      - even the plug-in models have undersized battery packs
+            - i.e. insufficient for typical daily needs
+
+How could Toyota succeed with such a poor design?
+- Toyota are the world's highest volume automobile manufacturer
+- Toyota mastered the [[https://en.wikipedia.org/wiki/Learning_curve][Learning Curve]]
+- Toyota internalized much of [[https://en.wikipedia.org/wiki/W._Edwards_Deming][Deming's]] [[https://en.wikipedia.org/wiki/Statistical_process_control][Statistical Process Control]]
+- The Prius was marketed as environmentally responsible
+- The Prius was often eligible for government incentives
+
+** What Kind of Hybrids are a Win-Win?
+
+With Climate Change one of the major threats to the world, do Hybrids have a
+role to play or should we go exclusively for Battery-Electric Vehicles (BEVs)?
+
+First, we can rule out Parallel Hybrids, even Plug-In Parallel Hybrids for the
+reasons already given.
+
+Series Hybrids have /potential environmental advantages/ over BEVs
+- Smaller battery pack
+      - less weight, increasing vehicle efficiency, lessens road wear
+      - less environmental impact from manufacturing
+- /if they are almost-always externally recharged!/
+
+Many people have been buying Plug-In Hybrids
+- especially where there are discounts and other incentives
+- [[https://www.greencarreports.com/news/1139858_phev-drivers-don-t-plug-in-so-often-and-epa-is-adjusting-to-it][and then they rarely plug them in!]]
+
+Can a Series-Hybrid be good for both owners and the common good?
+
+The ideal Series-Hybrid Automobile would have
+- Sufficient battery capacity for most needs
+      - Normal daily driving
+      - Plug in at home overnight
+      - If a heavy commute, Plug in at work
+- Excellent performance on battery only
+- Good performance with combined Battery and Internal Combustion Generator
+      - Allowing for extended range
+            - beyond BEV vehicles
+            - as good as ICE vehicles
+      - Adjust generator usage according to trip length
+- Adequate performance with Internal Combustion Generator alone
+      - Regenerative braking would give improved efficiency
+
+Alas, such ideal vehicles are unlikely to be produced or desired without
+government incentives aligned with this understanding.
