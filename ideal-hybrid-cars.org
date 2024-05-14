@@ -6,6 +6,7 @@ TL;dr: The best would be Series-Hybrid Automobiles with
 - Good performance with combined Battery and Internal Combustion Generator
       - Allowing for extended range
 - Mediocre performance with Internal Combustion Generator alone
+      - Motivating owners to plug them in!
 
 ** Battery Electric, Series Hybrid, Parallel Hybrid
 
