@@ -1,0 +1,211 @@
+* What Are Types?
+
+This is a /working draft/ of an attempt to answer this question
+- In the context of computer programming languages
+- And eventually in the context of mathematics?
+
+** A Type is a kind of Abstraction
+
+A type is an abstraction of a value (including a lower-level type "value")
+- it hides the detailed nature of the value
+- it provides abstract properties, especially operations
+  - constraints, type signatures on operations, dependent values, etc.
+  - much or all of which are in the form of a =typeclass=
+
+Where a type is used for a specific value, there are two types invovled
+- the abstract type aforementioned
+- the representation type of the value
+
+This design is intended to
+- minimize the information which one must consider at each level
+- allow the types at multiple levels to evolve independently as the program evolves
+
+A meta-operation called a /cast/ is often provided which can convert between an
+abstract type and a representation type.
+
+** Types are not Sets!
+
+A common misunderstanding is to think of types as sets of values.
+
+I've seen examples like the following and all I can say is /this is nonsense/
+despite being perfectly fine if these types merely represent sets of allowed
+values:
+
+#+begin_example
+  type color = enumeration of red, green, brown, orange, yellow, blue;
+  type fruit = enumeration of apple, orange, pear;
+  type volume = real;
+  type mass = real;
+  type energy = real;
+  shape colorize(shape, color);
+  fruit pick(tree);
+  type battery_stats = { volume v, mass m, energy e; };
+  if f = pick(orange_tree) = orange then colorize(my_shape, f);
+  battery_stats b1= { 10.0, 20.2, 30.3 }, b2 = { b1.e, b1.v, b1.m };
+#+end_example
+
+** Structural vs. Nominal Types
+
+*** Typing in C and C++
+
+In the Pascal community we would originally say something like this:
+#+begin_src Pascal
+  type
+    string = sequence of char,
+    xml = string,
+    person_name = xml,
+    address = xml;
+  var
+    joe: person_name,
+    schmo_place: address;      {there's schmo_place like home}
+  procedure go_home(who: person_name, home: address) forward;
+  begin
+     joe := "Joe Schmo";
+     { is the next line legal?  }
+     schmo_place := joe;
+     { is the next line legal? }
+     go_home(shomo_place, joe);
+#+end_src
+
+The early UCSD Pascal compiler used /structural typing/, i.e. a type was defined
+by its structure. Type types of =joe= and =schmo_place= were both "really" just
+=sequence of char=.
+
+Niclaus Wirth and the lhe larger Pascal community came down on a different
+viewpoint: /Types are Nominal/. We changed our compiler to match. This then made
+the two problematic statements illegal. We then needed a "casting" mechanism to
+be able to explicitly convert a value from its /nominal type/ to an underlying
+/structural type/. I don't think that casts ever got properly worked out in
+Pascal!
+
+*** Typing in C family languages
+
+In the C community, this might look as follows:
+#+begin_src C
+  typedef char* string;
+  typedef string xml;
+  struct person_name { xml name; };
+  struct address { xml addr; };
+  void go_home(person_name, address); /* prototype */
+  string my_string = "abc";
+  xml my_xml = "<emphasis> Oh boy! </emphasis>";
+  struct person_name joe = { "Joe Schmo" };
+  struct address schmo_place = { "<number>123</number> <street>0th Ave</street>" };
+  schmo_place = joe;              /* error: type mismatch */
+  schmo_place.addr = joe.name;    /* fine! */
+  go_home(schmo_place, joe);      /* error: type mismatch */
+  go_home(schmo_place.addr, joe.name); /* error: type mismatch */
+  go_home(joe, schmo_place);           /* fine! */
+#+end_src
+
+- typedef :: creates a type synonym, consistent with structural typing.
+- struct :: creates a NEW incompatible type. Repeating it in another part of the
+  program will create a different such type, even if the name is the same!
+  /Compilers typically record where and in which file a struct definition occurs
+  to enforce C's "one definition rule"/ number as well as the name./
+- C also has casts.
+- =union= also creates a distinct type.
+      - =union= creates sum-types
+      - =struct= creates product-types
+      - C++ adds =class= as an extension of C's =struct=
+
+In C++ and Java, an /interface type/ is close to the idea of an abstract type,
+while other types, e.g. /class types/ traditional C types (still there in C++)
+and /primitive types/ (non-class types in Java) are examples of /representation
+types/.
+
+*** Typing in Hindley-Milner Languages
+
+ML popularized Hindley-Milner type inference to save programmers /all the
+trouble of fully specifying types/ (hah!). This has been widely adopted since,
+e.g. in Haskell, Rust, the new =auto= feature of C++, typescript, et al. (Agda
+and Idris /don't/ use H-M type inference!)
+
+Hindley-Milner type inference creates structural types, not nominal types. It
+undercuts the integrity of nominal types.
+
+Need some good examples from the Hindley-Milner family here!
+
+Inference aside, Haskell straddles the structural/nominal divide much like C
+does. Anonymous identical type expressions represent the same structural type
+when repeated.
+- Named record types create new distinct types as with C's =struct=
+      - A record type name may also be used as a cast!
+- =type= creates a type alias, as =typedef= does in C
+- =newtype= creates a new distinct type without the bother of creating a record
+  type and having to wrap things in it
+- =class= creates a /typeclass/ which goes well beyond what C's type system can do!
+
+#+begin_src haskell
+data Foo = Foo { a :: String, b :: Float }
+data Bar = Bar { c :: String, d :: Integer }
+
+class Thing a where
+   doAThing :: a -> Bool
+
+instance Thing Foo where
+    doAThing (Foo x y) = (x == "hi") && (y == 0)
+
+instance Thing Bar where
+    doAThing (Bar x y) = (x == "hi") && ((fromInteger y) == 0)
+#+end_src
+
+*** Typing in SQL
+
+One last mention: SQL
+
+#+begin_src SQL
+  CREATE DOMAIN string AS char[];
+  CREATE DOMAIN xml AS string;
+  CREATE TYPE person_name AS ( xml name );
+  CREATE TYPE address AS ( xml addr );
+#+end_src
+
+SQL is a relational language closely related to functional languages, yet it's
+typing system is similar to C's:
+- CREATE DOMAIN :: creates an synonym for a structural type (like C's =typedef=)
+- CREATE TYPE :: creates a new tuple type distinct from any other type (like C's =struct=).
+ SQL has a =CAST= construct, although it's more strict than C's casts.
+
+Like C, SQL doesn't have type inference so =CREATE DOMAIN= is used (like C's
+typedef) to avoid repeating (possibly long) structural types, e.g. in function
+signatures.
+
+** Dimensions and Dimensional Analysis
+
+Physical and abstract dimensions, where applicable, should always be captured in
+the type system. Strong programming language type systems enable complete
+dimensional analysis at compile time.
+
+Units add an additional wrinkle - without changing the type, they can tell a compiler to
+emit code to convert from one unit to another, e.g. inch to cm.
+
+*** What is the dimension /of/?
+
+Latitudes and longitudes are not directly mixable in arithmetic, hence must be
+different types.  What is a measure a measure /of/?
+
+Consider
+- Sample1:
+  - A kilogram of sea water
+    - taken from site-1 at 2006-08-14@02:34:56
+    - using a standard sampling protocol
+- Sample2:
+  - a  kilogram of sea water
+    - taken from from site-2 at 2006-08-14@04:22:12
+    - using the same sampling protocol
+
+- What should be the types of those two samples?
+- If we were allowed to "add" those together, what would be the result type?
+
+Context is everything:
+- And we can reify that context in a type system!
+
+** References
+
+*** [[https://en.wikipedia.org/wiki/Type_system][Wikipedia: Type System]]
+
+*** [[https://en.wikipedia.org/wiki/Type_theory][Type Theory]]
+
+*** [[https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4][Type Systems: Structural vs. Nominal typing explained]]
+- I haven't carefully read this yet, but it looks good at first glance!
