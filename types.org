@@ -56,7 +56,7 @@ values:
 In the Pascal community we would originally say something like this:
 #+begin_src Pascal
   type
-    string = sequence of char,
+    string = array of char,
     xml = string,
     person_name = xml,
     address = xml;
@@ -75,7 +75,7 @@ In the Pascal community we would originally say something like this:
 
 Our early UCSD Pascal compiler used /structural typing/, i.e. a type was defined
 by its structure. Type types of =joe= and =schmo_place= were both "really" just
-=sequence of char=.
+=array of char=.
 
 Niklaus Wirth and the lhe larger Pascal community came to a different viewpoint:
 /Types are Nominal/. We changed our compiler to match. This then made the two
