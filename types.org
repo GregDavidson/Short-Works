@@ -6,11 +6,13 @@ This is a /working draft/ of an attempt to answer this question
 
 ** A Type is a kind of Abstraction
 
-A type is an abstraction of a value (including a lower-level type "value")
+A /type/ is an abstraction of a /value/
 - it hides the detailed nature of the value
 - it provides abstract properties, especially operations
-  - constraints, type signatures on operations, dependent values, etc.
-  - much or all of which are in the form of a =typeclass=
+      - constraints, type operation signatures, dependent values, etc.
+      - which may be encapsulated in a =typeclass=
+- (in systems where types can themselves have types, often called /kinds/,
+  let's refer to the kind as a /type/ and the described type as a /value/)
 
 Where a type is used for a specific value, there are two types invovled
 - the abstract type aforementioned
@@ -18,17 +20,19 @@ Where a type is used for a specific value, there are two types invovled
 
 This design is intended to
 - minimize the information which one must consider at each level
+      - important for reasoning - human or automated!
 - allow the types at multiple levels to evolve independently as the program evolves
 
 A meta-operation called a /cast/ is often provided which can convert between an
 abstract type and a representation type.
 
-** Types are not Sets!
+** Types Are Not Sets!
 
-A common misunderstanding is to think of types as sets of values.
+A common misunderstanding is to think of types as sets of values despite many
+authoritative sources claiming such.
 
 I've seen examples like the following and all I can say is /this is nonsense/
-despite being perfectly fine if these types merely represent sets of allowed
+despite it being perfectly fine if these types merely represent sets of allowed
 values:
 
 #+begin_example
@@ -41,7 +45,8 @@ values:
   fruit pick(tree);
   type battery_stats = { volume v, mass m, energy e; };
   if f = pick(orange_tree) = orange then colorize(my_shape, f);
-  battery_stats b1= { 10.0, 20.2, 30.3 }, b2 = { b1.e, b1.v, b1.m };
+  battery_stats b1= { 10.0, 20.2, 30.3 };
+  battern_stats b2 = { b1.e, b1.v, b1.m };
 #+end_example
 
 ** Structural vs. Nominal Types
@@ -67,16 +72,16 @@ In the Pascal community we would originally say something like this:
      go_home(shomo_place, joe);
 #+end_src
 
-The early UCSD Pascal compiler used /structural typing/, i.e. a type was defined
+Our early UCSD Pascal compiler used /structural typing/, i.e. a type was defined
 by its structure. Type types of =joe= and =schmo_place= were both "really" just
 =sequence of char=.
 
-Niclaus Wirth and the lhe larger Pascal community came down on a different
-viewpoint: /Types are Nominal/. We changed our compiler to match. This then made
-the two problematic statements illegal. We then needed a "casting" mechanism to
-be able to explicitly convert a value from its /nominal type/ to an underlying
+Niklaus Wirth and the lhe larger Pascal community came to a different viewpoint:
+/Types are Nominal/. We changed our compiler to match. This then made the two
+problematic statements illegal. We then needed a "casting" mechanism to be able
+to explicitly convert a value from its /nominal type/ to an underlying
 /structural type/. I don't think that casts ever got properly worked out in
-Pascal!
+Standard Pascal!
 
 *** Typing in C family languages
 
