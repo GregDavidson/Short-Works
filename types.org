@@ -210,6 +210,20 @@ Consider
 Context is everything:
 - And we can reify that context in a type system!
 
+** Type Systems and Type Hacking
+
+The /Type Systems/ of some languages, e.g. C++, Rust and Haskell are /Turing
+Complete/. This is great because it makes it possible to add desirable
+domain-specific features such as
+- Dimensional Analysis
+- Unit Conversion
+- et al
+and so on ad infinitum without burdening the standard language.
+
+In most of these languages, type hacking looks very strange and awkward. Haskell
+has been gradually adding features to the type system to allow type-level
+programming to resemble value-level programming.
+
 ** References
 
 *** [[https://en.wikipedia.org/wiki/Type_system][Wikipedia: Type System]]
@@ -218,3 +232,19 @@ Context is everything:
 
 *** [[https://medium.com/@thejameskyle/type-systems-structural-vs-nominal-typing-explained-56511dd969f4][Type Systems: Structural vs. Nominal typing explained]]
 - I haven't carefully read this yet, but it looks good at first glance!
+
+*** [[https://en.wikipedia.org/wiki/Template_metaprogramming][Template Metaprogramming]]
+- the way to do type hacking (and more) in C++ and similar languages by abusing
+  the type unification mechanism.
+
+*** [[https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A904B84CA962F2D75578445B703F199A/S0956796802004355a.pdf/faking-it-simulating-dependent-types-in-haskell.pdf][Faking it: Simulating dependent types in Haskell]]
+- An example of sophisticated type-level hacking in Haskell
+- This extends the type system with a popular feature without waiting for the
+  slow ongoing work by the Haskell community to add it as a built-in feature.
+- [[https://wiki.haskell.org/Dependent_type][Dependent Types]]
+
+*** [[https://stackoverflow.com/questions/3787960/what-makes-haskells-type-system-more-powerful-than-other-languages-type-syst][What makes Haskell's type system more "powerful" than other languages' type systems?]]
+- [[https://softwareengineering.stackexchange.com/questions/81266/a-proof-is-a-program-the-formula-it-proves-is-a-type-for-the-program]["A proof is a program; the formula it proves is a type for the program"]]
+
+*** [[https://en.wikipedia.org/wiki/Lambda_cube][The Lambda Cube]]
+- Because it's just so cute!
