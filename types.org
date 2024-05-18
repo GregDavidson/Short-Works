@@ -70,6 +70,7 @@ In the Pascal community we would originally say something like this:
      schmo_place := joe;
      { is the next line legal? }
      go_home(shomo_place, joe);
+  end.
 #+end_src
 
 Our early UCSD Pascal compiler used /structural typing/, i.e. a type was defined
