@@ -248,3 +248,8 @@ programming to resemble value-level programming.
 
 *** [[https://en.wikipedia.org/wiki/Lambda_cube][The Lambda Cube]]
 - Because it's just so cute!
+
+*** [[https://thelittletyper.com][book: The Little TYper]]
+- [[https://news.ycombinator.com/item?id=33162971][Hacker News Discussion]]
+Racket provides support for Pie
+- To use Pie, begin a file with #lang pie in DrRacket
