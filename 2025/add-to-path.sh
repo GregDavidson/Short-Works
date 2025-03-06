@@ -1,18 +1,19 @@
-# Add a component to $PATH
-# in the right place
-# if it's not already in $PATH
+#!/bin/bash
+# For a Bash profile script.
 
-it=$HOME/.guix-profile 
-if ! [ -d "$it" ]; then
-	>&2 echo Warning: No directory "$it"
-else
-   export GUIX_PROFILE="$it"
-   #  . "$GUIX_PROFILE/etc/profile"
-   #  Put $GUIX_PROFILE/bin in my $PATH
-   #  before any of the directories under /usr/
-   #  and only if it's not in my path already
-   case ":$PATH:" in
-	   "*:$GUIX_PROFILE:*") ;;
-	   *) export PATH="${PATH/:\/usr\//:$GUIX_PROFILE/bin:/usr/}" ;;
-   esac
-fi
+# Add a component to $PATH
+# before any /usr/* directories
+# if it's not already in $PATH
+add_to_path() {
+  local d f=add_to_path
+  for d; do
+	[ -d "$it" ] || {
+		>&2 echo "$f warning: No directory $it"
+                continue
+        }
+	case ":$PATH:" in
+	   "*:$d:*") ;;
+	   *) export PATH="${PATH/:\/usr\//:$d:/usr/}" ;;
+	esac
+  done
+}
