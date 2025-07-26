@@ -1,0 +1,278 @@
+* Key Features of Open Culture Licenses
+
+** TL;dr - Yes, this is the Short Summary!
+
+This document is about access to and control of Cultual Content
+- Books, Movies, Games, Art
+- Computer Software
+- Designs for everything which can be made
+- etc.
+
+Most people are Users/Consumers of Cultural Content
+  - Watching, Reading, Playing, etc. is called "consuming" media.
+  - Easy copying and sharing means that *"consuming" is a silly term*
+    - any number of people can "consume" the same media
+    - without diminishing how much is available.
+  - *We prefer the term "User"!*
+
+People who create Cultural Content are mostly Users!
+- They use more content that they didn't create!
+- They rarely own the content they create
+  - It's owned by their employers
+  - or they sell the rights to it,
+    - e.g. to a publisher or a label.
+
+Organizations which own content are mostly Users!
+- They use more content in their operations than what they own!
+
+It is in the interest of Users to Maximize their Access to the
+Cultural Content which they share.
+
+When creators and owners attempt to restrict users' access to the
+content they develop and/or own it creates artificial scarcity which
+ultimately makes everyone poorer.
+
+Open Culture Licences are designed to expand everyone's access to
+cultural content while in some cases reserving some rights to the
+creators or owners of that content.
+
+In the case of Software
+- "Open Source" Licenses favor the rights of the corporate owners of
+  software over the rights of (1) the Users of that software and
+  (2) independent Software Developers
+in comparison to
+- "Free Software" Licenses which favor the rights of the (1) Users of
+  Software and (2) independent Software Developers over the rights of
+  corporate owners.
+
+A similar distinction exists in licenses for other kinds of cultural content.
+
+The most commonly used "Open Culture" Licences are "Open Source".
+
+It is to the advantage of Users to prefer "Free Software" licenses
+instead, e.g. the AGPL3 license.
+
+Having lots of kinds of licenses can seem to fit many needs, but makes
+it difficult to create new content based on existing content with
+incompatible licenses.
+
+There are ways to deal with all of this complexity, e.g.
+- Dual Licensing
+- Designed-In License compatibilities
+
+** Human Ideas of "Intellectual Property"
+
+The law defines multiple kinds of "Intellectual Property", including
+- Copyright :: last a long time
+- Trademark :: cover a very narrow usage
+- Patents :: last a relatively short time
+These are very different things which should not be confused!
+- *This document is about Licenses for Copyrighted Works.*
+
+Licenses over cultural content, e.g.
+- books, movies, software, designs, etc.
+determine
+- what people can legally do with that content
+- what people may not legally do with that content.
+
+Licenses make a huge difference regarding content which can be
+- inexpensively copied
+- be a base for new creative works
+
+Letting a creative work be in the "Public Domain" instead of under a
+license does not necessarily maximize anyone's freedom of how they can
+use it!
+
+The first licenses we'll look at were designed for
+- Computer Software
+then we'll look at some licenses designed for other things, e.g.
+- Hardware, "Consumable" Media, Designs, etc.
+
+And before we look at licenses
+- *we have to understand the interests different groups have*
+which motivates the different kinds of licenses.
+
+** Different Groups Have Different Interests in Computer Software
+
+Anyone who uses computers is impacted by the license of the
+1. Non-User-Visible Operating System Software
+  - kernels, libraries, service processes, control software, etc.
+  - which make the computer a platform for running applications
+2. Applications which directly support users' task-oriented needs
+
+There are several entities contending for rights when it comes to computer software:
+- Users who Run Applications to Get Things Done
+- Programmers who Create and Maintain Software
+- Programmers who wish to Modify Existing Software
+  - To fix bugs, add missing features, etc.
+  - or as the basis for a new vision
+- Owners and Managers of Organizations which
+  - Sell or license the software their organization owns
+
+Sometimes these different folks want different incompatible rights.
+
+*** Users' Interests
+
+Users want software which
+- Does what they need
+  - New versions might provide new desired features.
+  - New versions should not remove desired features (regressions).
+- Is easy to learn and to use
+  - New versions should not disrupt existing understandings.
+- Is reliable, secure and reasonably efficient
+  - Any output can be trusted.
+  - Users' sensitive data will only be shared as users desire.
+    - Includes any data associated with the application user's clients.
+  - high-reliability practices should be well followed by all phases
+    of software development, including software ""maintenance""
+  - Bug fixes, including security fixes
+    - should rarely be needed
+    - should be immediately available, free of charge
+  - Providers of commercial software should be liable for any damages
+    caused by their negligence
+  - Runs well with the resources available on the user's platform
+    - New versions shouldn't require gratuitous upgrades to the user's
+      platform, i.e. no gratuitous performance regressions.
+
+Users don't want to be at the effect of a monopoly which
+- Increases prices without a significant increase in capability.
+  - Purchase price - if there is one - doesn't include required
+    ongoing maintenance
+  - Short-term Licensing has undesirable restrictions
+    - Restrictions and prices keep increasing.
+- Fails to maintain quality.
+  - old versions abandoned, e.g. no bug fixes.
+  - users forced to move to new versions
+    - not perceived to be significantly better
+    - possibly even perceived to be worse!
+- Removes functionality, i.e. functional regressions
+- Makes changes which disadvantage existing users.
+- Prohibits the users and third parties from
+  - Fixing problems the software owner is not fixing
+  - Adding desired features the software owner is not interested in adding.
+  - Maintaining the software on existing platforms when those
+    platforms evolve, e.g.
+    - when there's an operating system upgrade
+    - when the user upgrades the hardware
+
+Most individual users rarely have the interest of ability to
+- understand or modify software
+- find contractors to do those things for them
+
+Organizational users may have an interest in
+- access to the software Source Code
+- exercising a right to modify that software as they desire
+
+*** Commercial Owners' Interests
+
+Commercial owners of valuable software want to
+- maximize their income from the software
+- minimize any development and maintenance expenses
+
+Making more money can either be done through
+- providing more value
+- providing associated services
+- monopolistic practices
+
+A common associated service is support.  Some of the ways to maximize
+income from software support are
+- Design the software to require lots of support.
+  - Non-obvious complexity and pitfals.
+  - Difficult upgrades
+  - Difficulty porting to new hardware and operating system versions.
+- Use licensing and trade secrets to eliminate competitors for support
+  services.
+- Restrict variation, e.g. user customizations and extensions
+  - Allows low-tier support staff to easily understand any issues.
+
+Many companies use heavy marketing to give an illusion of increased
+value when in reality they are simply charging a lot more for little
+or no improvement.
+
+Organizations which sell of software under proprietary licenses
+- have almost complete control over its appearance, functionality and quality
+- IF they can convince people or other organizations
+  - to buy it
+  - to become dependent on its specific features
+
+Organizations which sell of software under proprietary licenses
+- Have a great deal of control over their software developers.
+- Often have less control than they imagine!
+  - Requirements are often not met or are late.
+  - Developers with required expertise often leave.
+
+**** Organizations have some interest in "Open Source" Licenses
+
+When their primary customers are large Organizationssoftware to large institutions, e.g. government, they may need to provide
+- a higher level of quality and support
+- access to the software source code
+- permission for their customers to make some changes themselves
+
+When they'd like to out-source development and maintenance expenses
+- They can get something for free
+- But they might not want to give anything back!
+
+For example,
+- Apple bases all of their systems software on the freely available BSD
+  - BSD :: Berkeley Software Distribution
+  - BSD was developed at the University of California, Berkeley
+  - Apple's modifications and customizations are generally NOT Open Source
+- Google's Android Operating System (primarily for phones) is based on Linux
+  - the Kernel of the Gnu/Linux operating system
+  - Google's Android services components are generally NOT Open Source
+- Many commercial companies offer Gnu/Linux systems
+  - Gnu/Linux Systems are usually just called Linux Systems
+  - Even though Android uses Linux without GNU
+  - Those companies often offer
+    - Additional proprietary software
+    - Lucrative support contracts
+- Many commercial organizations make extensive use of Gnu/Linux
+  - Internally and for their Cloud Services
+  - This includes massive use by Google, Amazon, Microsoft, Oracle,
+    IBM and many other major comptuter services
+  - They modify Gnu/Linux to meet their needs.
+  - They generally don't share their modifications.
+
+Notes:
+1. The GNU Project's original license was intended to require sharing
+   full free software rights to modifications any time the software
+   was distributed, but that original license failed to define
+   offering use of modified versions of GNU software via cloud
+   services as a "distribution" of that software.
+2. Later GNU Project licenses, e.g. AGPL3 /do/ state that offering
+   services based on GNU software is a distribution.
+3. Many commercial companies (and some independent developers) avoid
+   using the newer GNU licenses in order to retain sole knowlege and
+   control of their modifications.
+
+*** Software Developer's Interests
+
+Software developers tend to want the software to look and behave
+exactly as they think it should.
+- Developers can get upset when users use the software in a manner not
+  expected by the developers!
+
+Developers often believe that they know better than the users how the
+software should appear and behave.
+
+Independent developers of software under proprietary licenses
+- have almost complete control over its appearance, functionality and quality
+- IF they can convince people or other organizations
+  - to buy it
+  - to become dependent on its specific features
+
+Most developers work for a company which owns the software
+- The company tells them how to develop the software
+  - What features it should have
+  - What development practices they should follow
+- Developer concerns about quality, reliability, etc. are often
+  suppressed!
+
+Many software deveopers
+- Hate the mangement of the companies they work for
+- Leave when they get a better offer, taking their expertise with them
+
+Other software developers identify with their company's objectives
+- They act against their own interests
+- They act against the interests of the people who will be using their
+  software.
